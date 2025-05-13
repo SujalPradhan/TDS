@@ -1,4 +1,4 @@
-name: Example CI
+name: Email Step Example
 
 on:
   push:
@@ -6,12 +6,9 @@ on:
       - main
 
 jobs:
-  example-job:
+  test:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: Say Hello (23f2004759@ds.study.iitm.ac.in)
-        run: echo "Hello from 23f2004759@ds.study.iitm.ac.in"
+      - name: 23f2004759@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
